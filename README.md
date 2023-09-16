@@ -5,7 +5,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -16,6 +15,19 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+## Overview
+
+
+### Screenshot
+
+![Desktop View](./1440.png)s
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
   ### Built with
 
 - Semantic HTML5 markup
@@ -23,3 +35,5 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+

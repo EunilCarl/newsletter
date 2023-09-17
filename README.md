@@ -11,16 +11,12 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 
 ### Screenshot
 
-[Mobile View](./)
 [Desktop View](./1440.png)
 
 
@@ -37,7 +33,9 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - CSS Grid
 - Mobile-first workflow
 
+### What I learned
 
+I learned some crazy ahh DOM manipulation
 
 ### Continued development
 

@@ -17,7 +17,9 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Screenshot
 
-[Desktop View](./1440.png)
+![Desktop View](./1440.png)
+
+![Mobile View](./mobile.png)
 
 
 ### Links

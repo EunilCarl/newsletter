@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --primary: hsl(4, 100%, 67%);
+  --darkgrey: hsl(234, 29%, 20%);
+  --charcgrey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+h1,
+h2,
+p,
+li {
+  color: var(--darkgrey);
+}
+.bold{
+  font-weight: 700;
+}
+main > img {
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--charcgrey);
+}
+label{
+  display: inline-block;
+  width: 48%;
+}
+.secs h2{
+ text-align: right;
+ color: var(--primary);
+ width: 100%;
+ 
+}
+
+.secs{
+  display: none;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  
+  margin-bottom: 10px;
+}
+label > h2 {
+  font-size: 0.8rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 2em 1fr;
+  row-gap: 1em;
+}
+li {
+  grid-column-start: 2;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25px 1fr 25px;
+  padding: 0;
+  margin: 0;
+}
+input,
+button {
+  width: 100%;
+  padding: 1.3em;
+  font-size: 0.95em;
+}
+input {
+  border-width: 1px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--grey);
+}
+.email {
+  padding-top: 1em;
+  row-gap: 20px;
+}
+
+h1,
+ul,
+label,
+.email {
+  grid-column-start: 2;
+}
+main p,
+.btn {
+  grid-column-start: 2;
+}
+main {
+  background-color: var(--white);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary);
+  font-size: large;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+section {
+  background-color: var(--white);
+  height: 98vh;
+
+  grid-template-columns: 25px 1fr 25px;
+  grid-template-rows: 1.4fr 1.5fr 1fr 2fr 1fr;
+
+  display: none;
+}
+.divimg {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+section button {
+  grid-column-start: 2;
+}
+
+section p {
+  grid-row-start: 3;
+  line-height: 1.5em;
+  grid-column-start: 2;
+  margin: 0;
+}
+section > button {
+  max-height: 4em;
+  grid-row-start: 5;
+}
+button {
+  font-weight: 400;
+  margin-top: 2em;
+  color: var(--white);
+  background-color: var(--darkgrey);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2em;
+}
+button:hover {
+  cursor: pointer;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: linear-gradient(to right, #f857a6 0%, #ff5858 51%, #f857a6 100%);
+  background-image: linear-gradient(
+    to right,
+    #d1437e 0%,
+    #e1500d 51%
+ 
+  );
+  transform: translateY(-0.25em);
+  transform: scale(1.01);
+  transform: scale(10s);
+
+
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 12px 16px 53px 13px rgba(225,80,13,0.27);
+  -webkit-box-shadow: 12px 16px 53px 13px rgba(225,80,13,0.27);
+  -moz-box-shadow: 12px 16px 53px 13px rgba(225,80,13,0.27);
+  
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes shake3 {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.list{
+  align-items: center;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #c04d1b; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  display: none;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+input:invalid {
+  outline: 0;
+  border-color: red;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-delay: 0.25s;
+  color: #ff9494;
+  border: 2px solid #ff9494;
+  border-radius: 5px;
+  animation: shake3 0.4s ease-in-out 0s 2;
+  
+}
+
+
+@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) { 
+    main {
+      margin: 2em;
+      border-radius: 3em;
+      padding: 1.5em;
+      display: grid;
+      place-items: center;
+      font-size: 0.7em;
+      max-height: 47em;
+      width: 100%;
+      max-width: 60em;
+    }
+    
+    body {
+      height: 100vh;
+      display: grid;
+      grid-template-rows: 1fr;
+      place-items: center;
+    }
+    .list{
+      align-items: center;
+      gap: 1em;
+    }
+    .container {
+      grid-row-start: 2;
+    }
+    .container h1 {
+      font-size: 2rem;
+    }
+    main > img {
+      content: url("images/illustration-sign-up-desktop.svg");
+      width: 100%;
+     
+      grid-column-start: 2;
+      grid-row-start: 2;
+    
+    }
+    
+    .container h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    main{
+      max-width: 70em ;
+    }
+    .container h1 {
+      font-size: 3rem;
+    }
+    .container{
+      font-size: 0.9rem;
+    }
+    .container img{
+      width: 100%;
+    }
+  }
+
+  .sec {
+    grid-row-start: 1;
+    margin: 10em;
+    max-width: 25em;
+    grid-template-rows: none;
+    height: 25em;
+    padding: 3em;
+    border-radius: 2.5em;
+  }
+  .sec button {
+    padding: 1em;
+    font-size: 1em;
+  }
+  
+  .divimg h1 {
+    margin-top: 0.5em;
+  }
+  .divimg {
+    grid-row-start: 1;
+  }
+  .pa {
+    grid-row-start: 2;
+  }
+  .sec > button {
+    grid-row-start: 3;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .container h1 {
+      font-size: 3rem;
+    }
+    .sec h1 {
+      font-size: 3.5em;
+    }
+  } 
+  @media screen and (min-width: 1440px) {
+    .container h1 {
+      font-size: 3.5rem;
+    }
+    .container{
+     grid-template-columns: 25px 26em ;
+    }
+    .list{
+      row-gap: 0.7rem;
+    }
+    .container img{
+      width: 75%;
+    }
+    main{
+      column-gap: 3em;
+      max-width: 80em;
+      max-height: 65em;
+      padding: 2em 1em;
+      
+    }
+    main img{
+     width: 95%;
+    }
+    input, main button{
+      
+      font-size: 0.95rem;
+      
+    }
+    
+  } 
+}

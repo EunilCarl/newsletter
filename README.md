@@ -25,7 +25,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [https://github.com/EunilCarl/newsletter](https://github.com/EunilCarl/newsletter)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-newsletter-page-using-html-css-and-javascript-GS6FuTO9Pi](https://www.frontendmentor.io/solutions/responsive-newsletter-page-using-html-css-and-javascript-GS6FuTO9Pi)
 - Live Site URL: [https://eunilcarl.github.io/newsletter/](https://eunilcarl.github.io/newsletter/)
 
   ### Built with

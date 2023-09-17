@@ -20,13 +20,14 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Screenshot
 
-![Desktop View](./1440.png)s
+[Mobile View](./)
+[Desktop View](./1440.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/EunilCarl/newsletter](https://github.com/EunilCarl/newsletter)
+- Live Site URL: [https://eunilcarl.github.io/newsletter/](https://eunilcarl.github.io/newsletter/)
 
   ### Built with
 
@@ -37,3 +38,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - Mobile-first workflow
 
 
+
+### Continued development
+
+I will probably learn about api soon after this lol

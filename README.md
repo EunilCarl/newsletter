@@ -17,10 +17,11 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Screenshot
 
-![Desktop View](./1440.png)
+![Desktop View](readme/1440.png)
+![Desktop Success View](readme/1440%20success.png)
 
-![Mobile View](./mobile.png)
-
+![Mobile View](readme/mobile.png)
+![Mobile Success View](readme/mobile%20success.png)
 
 ### Links
 
